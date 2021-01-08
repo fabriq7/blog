@@ -45,6 +45,9 @@ namespace Application.Blog.Services
 
             var post = await _postRepository.GetById(id);
 
+            if (post == null)
+                throw new Exception("Não foi possível localizar este post!");
+
             if (post.UserId != user.Id)
                 throw new Exception("Você não tem permissão para excluir este post!");
 
@@ -53,17 +56,32 @@ namespace Application.Blog.Services
 
         public Task<Post> GetByImage(string image)
         {
-            return _postRepository.GetByImage(image);
+            var post = _postRepository.GetByImage(image);
+
+            if (post.Result == null)
+                throw new Exception("Post não encontrado!");
+
+            return post;
         }
 
         public Task<Post> GetByLink(string link)
         {
-            return _postRepository.GetByLink(link);
+            var post = _postRepository.GetByLink(link);
+
+            if (post.Result == null)
+                throw new Exception("Post não encontrado!");
+
+            return post;
         }
 
         public Task<Post> GetByText(string text)
         {
-            return _postRepository.GetByText(text);
+            var post = _postRepository.GetByText(text);
+
+            if (post.Result == null)
+                throw new Exception("Post não encontrado!");
+
+            return post;
         }
     }
 }

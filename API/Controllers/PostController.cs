@@ -83,7 +83,7 @@ namespace API.Controllers
         }
 
         [HttpGet("GetByLink/{link}")]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult> GetByLink(string link)
         {
             try

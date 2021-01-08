@@ -14,4 +14,5 @@ namespace Blog.Shared.Entities
             CreatedAt = DateTime.Now;
         }
     }
+
 }
