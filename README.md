@@ -1,8 +1,10 @@
 Executando o projeto
 
 Premissas:
-
 Ter o banco de dados Postgres instalado na versão 13
+
+
+------------------------------------------------------
 
 1. Criação do banco de dados:
 Navegue até a raiz do projeto "API" e execute os seguintes comandos para criar o banco de dados:
