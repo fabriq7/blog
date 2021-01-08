@@ -44,9 +44,11 @@ namespace API
             //services.AddControllers();
 
             services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IPostService, PostService>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPostService, PostService>();
             services.AddScoped<IPostRepository, PostRepository>();
+            services.AddScoped<ICommentService, CommentService>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
 
             services.AddHttpContextAccessor();
             var key = Encoding.ASCII.GetBytes(Settings.Secret);

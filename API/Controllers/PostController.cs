@@ -50,6 +50,22 @@ namespace API.Controllers
             }
         }
 
+        [HttpGet("GetById/{id}")]
+        [Authorize]
+        public async Task<ActionResult> GetById(Guid id)
+        {
+            try
+            {
+                var post = await _postService.GetById(id);
+
+                return Ok(post);
+            }
+            catch (Exception ex)
+            {
+                return Problem(ex.Message);
+            }
+        }
+
         [HttpGet("GetByText/{text}")]
         [Authorize]
         public async Task<ActionResult> GetByText(string text)

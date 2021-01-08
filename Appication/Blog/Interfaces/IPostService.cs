@@ -9,6 +9,7 @@ namespace Application.Interfaces
     {
         Task<Guid> Create(PostDTO postDTO);
         Task Delete(Guid Id);
+        Task<Post> GetById(Guid id);
         Task<Post> GetByText(string text);
         Task<Post> GetByImage(string image);
         Task<Post> GetByLink(string link);

@@ -1,5 +1,6 @@
 ﻿using Blog.Shared.Entities;
 using System;
+using System.Collections.Generic;
 
 namespace Domain
 {
@@ -24,6 +25,7 @@ namespace Domain
         public string Link { get; private set; }
         public User User { get; private set; }
         public Guid UserId { get; set; }
+        public List<Comment> Comment { get; set; }
 
         public void Validar()
         {

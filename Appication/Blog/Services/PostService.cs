@@ -54,6 +54,16 @@ namespace Application.Blog.Services
             await _postRepository.RemoveAsync(post);
         }
 
+        public Task<Post> GetById(Guid id)
+        {
+            var post = _postRepository.GetById(id);
+
+            if (post.Result == null)
+                throw new Exception("Post não encontrado!");
+
+            return post;
+        }
+
         public Task<Post> GetByImage(string image)
         {
             var post = _postRepository.GetByImage(image);
