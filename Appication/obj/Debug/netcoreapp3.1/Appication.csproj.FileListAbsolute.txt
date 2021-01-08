@@ -1,0 +1,16 @@
+C:\projetos\blog\Appication\obj\Debug\netcoreapp3.1\Appication.csprojAssemblyReference.cache
+C:\projetos\blog\Appication\obj\Debug\netcoreapp3.1\Appication.AssemblyInfoInputs.cache
+C:\projetos\blog\Appication\obj\Debug\netcoreapp3.1\Appication.AssemblyInfo.cs
+C:\projetos\blog\Appication\obj\Debug\netcoreapp3.1\Appication.csproj.CoreCompileInputs.cache
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Appication.deps.json
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Appication.dll
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Appication.pdb
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Domain.dll
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Infra.dll
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Shared.dll
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Infra.pdb
+C:\projetos\blog\Appication\bin\Debug\netcoreapp3.1\Shared.pdb
+C:\projetos\blog\Appication\obj\Debug\netcoreapp3.1\Appication.csproj.CopyComplete
+C:\projetos\blog\Appication\obj\Debug\netcoreapp3.1\Appication.dll
+C:\projetos\blog\Appication\obj\Debug\netcoreapp3.1\Appication.pdb
